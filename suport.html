@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suporte * Agenda Clínica</title>
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="d-flex flex-column justify-content-center align-items-center min-vh-100 gap-1">
+                <h3>O que você necessita?</h3>
+                <form action="">
+                    <div>
+                        <label for="usuario">E-mail:</label>
+                        <input type="email" name="lgUsuario" id="usuario" placeholder="Insira o seu E-mail" required="required">
+                    </div>
+                    <hr>
+                    <div>
+                        <label for="opcoesProblema">Selecione opção do seu problema:</label>
+                        <select name="opcoesProblema" id="opcoesProblema">
+                            <option value="erro">Erro</option>
+                            <option value="bug">Bug</option>
+                            <option value="implement">Implementação</option>
+                            <option value="outhers">Outro</option>
+                        </select>
+                    </div>
+                    <hr>
+                    <div>
+                        <label for="problemDescription">Insira detalhadamente o que deseja</label>
+                        <textarea name="problemDescription" id="problemDescription"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar" id="post" name="postSuport">
+                    </div>
+                </form>
+                <nav>
+                    <section>
+                        <div class="d-flex flex-column">
+                            <a href="recuperarSenha.html">Esqueci minha senha</a>
+                            <a href="cadastro.html">Realizar cadatro</a>
+                            <a href="index.html">Realizar login</a>
+                            <a href="testBoots.html">Pagina teste</a>
+                        </div>
+                    </section>
+                </nav>
+            </div>
+        </section>
+    </main>
+<script 
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js">
+</script>
+</body>
+</html>
